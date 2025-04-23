@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Gallery</class>
+ <widget class="QWidget" name="Gallery">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>971</width>
+    <height>940</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: none;</string>
+  </property>
+  <widget class="QPushButton" name="ShowStuff">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>160</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tw Cen MT Condensed Extra Bold</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+
+   
+    color: white; /* يمكنك تغيير اللون إلى أي لون تريده */
+
+}
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Your Cart</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Desktop/Icons/icons8-cart-100.png</normaloff>../../Desktop/Icons/icons8-cart-100.png</iconset>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>370</y>
+     <width>91</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Share">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>160</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tw Cen MT Condensed Extra Bold</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+
+   
+    color: white; /* يمكنك تغيير اللون إلى أي لون تريده */
+
+}
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Share your Art</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Desktop/Icons/icons8-share-32.png</normaloff>../../Desktop/Icons/icons8-share-32.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>0</y>
+     <width>871</width>
+     <height>731</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Desktop/Screenshots/Brown Minimalist Renaissance Paintings Instagram Post.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-65</y>
+     <width>971</width>
+     <height>941</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qradialgradient(spread:pad, cx:0.500182, cy:0.506, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 255));
+
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>-10</y>
+     <width>231</width>
+     <height>951</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0, y1:0.181818, x2:1, y2:0.159, stop:0 rgba(0, 0, 0, 255), stop:0.0738636 rgba(0, 0, 0, 255), stop:0.369318 rgba(0, 0, 0, 200), stop:0.630682 rgba(50, 50, 50, 171), stop:0.869318 rgba(0, 0, 0, 0), stop:1 rgba(0, 0, 0, 0));
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>740</x>
+     <y>0</y>
+     <width>231</width>
+     <height>951</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+
+background-color: qlineargradient(spread:pad, x1:0.0397727, y1:0.153, x2:1, y2:0.159, stop:0 rgba(0, 0, 0, 0), stop:0.1875 rgba(0, 0, 0, 0), stop:0.403409 rgba(50, 50, 50, 171), stop:0.5625 rgba(0, 0, 0, 200), stop:0.818182 rgba(0, 0, 0, 255), stop:0.9375 rgba(0, 0, 0, 255));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>102</y>
+     <width>931</width>
+     <height>851</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0.233, y1:0.0223182, x2:0.170455, y2:1, stop:0 rgba(0, 0, 0, 0), stop:0.1875 rgba(0, 0, 0, 0), stop:0.403409 rgba(50, 50, 50, 171), stop:0.5625 rgba(0, 0, 0, 200), stop:0.818182 rgba(0, 0, 0, 255), stop:0.9375 rgba(0, 0, 0, 255));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>160</y>
+     <width>441</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    color: white; /* لتغيير لون النص إلى الأبيض */
+    border: 2px solid #FFFFFF; /* لتحديد الحدود وجعلها 5 بكسل */
+   border-radius:20px;
+}
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Search">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>20</y>
+     <width>471</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QLineEdit
+{
+  
+
+	color: #FFFFFF;
+
+
+  background:transparent;
+  border:none;
+    border-bottom:1px solid#ffffff ;
+  
+	font: 11pt &quot;Simple Indust Shaded&quot;;
+
+}</string>
+   </property>
+   <property name="placeholderText">
+    <string>   Search by categories</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>210</x>
+     <y>10</y>
+     <width>611</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border:7px double #FFFFFF;
+border-color: rgb(255, 255, 255);
+border-radius:5px;
+
+</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>20</y>
+     <width>41</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Desktop/Icons/icons8-search-128.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="chat_button">
+   <property name="geometry">
+    <rect>
+     <x>660</x>
+     <y>160</y>
+     <width>71</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tw Cen MT Condensed Extra Bold</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+
+   
+    color: white; /* يمكنك تغيير اللون إلى أي لون تريده */
+
+}
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Chat</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Desktop/Icons/icons8-chatbot-50.png</normaloff>../../Desktop/Icons/icons8-chatbot-50.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="preferencesButton">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>160</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Tw Cen MT Condensed Extra Bold</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+
+   
+    color: white; /* يمكنك تغيير اللون إلى أي لون تريده */
+
+}
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Preferences</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Desktop/Icons/icons8-like-50.png</normaloff>../../Desktop/Icons/icons8-like-50.png</iconset>
+   </property>
+  </widget>
+  <zorder>label_4</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>chat_button</zorder>
+  <zorder>preferencesButton</zorder>
+  <zorder>Share</zorder>
+  <zorder>ShowStuff</zorder>
+  <zorder>label</zorder>
+  <zorder>Search</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

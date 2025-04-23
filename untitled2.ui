@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Signup</class>
+ <widget class="QWidget" name="Signup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>529</width>
+    <height>632</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="toolTipDuration">
+   <number>0</number>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(0, 0, 0);</string>
+  </property>
+  <widget class="QPushButton" name="SignupButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>400</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: white; /* لون النص */
+    
+	
+	background-color: rgb(0, 0, 0);
+    border-radius: 8px; /* تدوير الحواف (اختياري) */
+    padding: 5px; /* مسافة داخلية */
+}
+
+QPushButton:hover {
+    ; /* لون الخلفية عند التمرير */
+	background-color:white;
+    color: black; /* لون النص */
+}
+
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="checkBox">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>530</y>
+     <width>141</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>8</pointsize>
+     <weight>9</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;
+font: 75 8pt &quot;Segoe Print&quot;;
+border-color:none;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>Recall me any time.</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="PoiliciesCheckBox">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>510</y>
+     <width>141</width>
+     <height>17</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>8</pointsize>
+     <weight>9</weight>
+     <italic>false</italic>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;
+font: 75 8pt &quot;Segoe Print&quot;;
+border-color:none;
+color:white;</string>
+   </property>
+   <property name="text">
+    <string>I Accept all poilcies.</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="User">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>150</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Username:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Pass">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>260</y>
+     <width>251</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Password:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Username">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>200</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QLineEdit
+{
+  
+ color: rgb(168, 168, 168);
+  
+
+
+  background:transparent;
+  border:none;
+    border-bottom:1px solid#ffffff ;
+
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Password">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>320</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+
+QLineEdit
+{
+  
+ color: rgb(168, 168, 168);
+  
+
+
+  background:transparent;
+  border:none;
+  
+  border-bottom:1px solid #ffffff;
+}</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="BackButton">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>460</y>
+     <width>181</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: white; /* لون النص */
+    
+	
+	background-color: rgb(0, 0, 0);
+    border-radius: 8px; /* تدوير الحواف (اختياري) */
+    padding: 5px; /* مسافة داخلية */
+}
+
+QPushButton:hover {
+    ; /* لون الخلفية عند التمرير */
+	background-color:white;
+    color: black; /* لون النص */
+}
+
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>90</y>
+     <width>291</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:105px;
+
+background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(124, 124, 124, 52), stop:0.181818 rgba(111, 111, 113, 72), stop:0.25 rgba(111, 111, 111, 82), stop:0.323864 rgba(100, 98, 115, 59), stop:0.57754 rgba(100, 98, 115, 100), stop:0.625 rgba(118, 118, 118, 158), stop:0.710227 rgba(102, 102, 102, 34), stop:0.852273 rgba(107, 107, 128, 41), stop:1 rgba(126, 126, 126, 160));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-4</x>
+     <y>0</y>
+     <width>531</width>
+     <height>681</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Desktop/Screenshots/ميوزيم.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>label_5</zorder>
+  <zorder>BackButton</zorder>
+  <zorder>SignupButton</zorder>
+  <zorder>Password</zorder>
+  <zorder>Pass</zorder>
+  <zorder>Username</zorder>
+  <zorder>User</zorder>
+  <zorder>PoiliciesCheckBox</zorder>
+  <zorder>checkBox</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

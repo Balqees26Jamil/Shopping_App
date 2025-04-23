@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Login</class>
+ <widget class="QWidget" name="Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>669</width>
+    <height>909</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 255);</string>
+  </property>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>140</x>
+     <y>130</y>
+     <width>381</width>
+     <height>651</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: qlineargradient(spread:pad, x1:0.125, y1:0.114, x2:1, y2:1, stop:0.0397727 rgba(176, 4, 41, 173), stop:0.181818 rgba(0, 0, 0, 111), stop:0.272727 rgba(0, 0, 0, 48), stop:0.380682 rgba(0, 0, 0, 82), stop:0.619318 rgba(0, 0, 0, 113), stop:0.732955 rgba(16, 16, 28, 75), stop:0.920455 rgba(124, 12, 26, 207));
+
+border-radius:105px;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>160</y>
+     <width>341</width>
+     <height>591</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:105px;
+
+background-color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(124, 124, 124, 52), stop:0.181818 rgba(111, 111, 113, 72), stop:0.25 rgba(111, 111, 111, 82), stop:0.323864 rgba(100, 98, 115, 59), stop:0.57754 rgba(100, 98, 115, 100), stop:0.625 rgba(118, 118, 118, 158), stop:0.710227 rgba(102, 102, 102, 34), stop:0.852273 rgba(107, 107, 128, 41), stop:1 rgba(126, 126, 126, 160));</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Username">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>400</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+QLineEdit
+{
+  
+ color: rgb(255, 255, 255);
+
+
+  background:transparent;
+  border:none;
+  
+  border-bottom:1px solid #717072;
+}</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Password">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>500</y>
+     <width>321</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+
+
+QLineEdit
+{
+  
+ 
+	color: rgb(255, 255, 255);
+  
+
+
+  background:transparent;
+  border:none;
+  
+  border-bottom:1px solid #717072;
+}</string>
+   </property>
+   <property name="echoMode">
+    <enum>QLineEdit::Password</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="User">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>340</y>
+     <width>261</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Username:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Pass">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>470</y>
+     <width>251</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;Password:&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="LoginButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>590</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: white; /* لون النص */
+    
+	
+	background-color:black;
+   
+    border-radius: 8px; /* تدوير الحواف (اختياري) */
+    padding: 5px; /* مسافة داخلية */
+}
+
+QPushButton:hover {
+    ; /* لون الخلفية عند التمرير */
+	background-color:white;
+    color: black; /* لون النص */
+}
+
+
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Log In </string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="SignupButton">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>670</y>
+     <width>191</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: white; /* لون النص */
+    
+	
+	background-color:black;
+   
+    border-radius: 8px; /* تدوير الحواف (اختياري) */
+    padding: 5px; /* مسافة داخلية */
+}
+
+QPushButton:hover {
+    ; /* لون الخلفية عند التمرير */
+	background-color:white;
+    color: black; /* لون النص */
+}
+
+
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Sign Up</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>250</y>
+     <width>371</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>22</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QLabel {
+    background: none; /* جعل الخلفية شفافة */
+   
+
+    border-radius:20px;
+   
+}
+</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; color:#ffffff;&quot;&gt;LOG IN TO&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="FaceButton">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>810</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: white; /* لون النص */
+    
+	
+	background-color:black;
+   
+    border-radius: 8px; /* تدوير الحواف (اختياري) */
+    padding: 5px; /* مسافة داخلية */
+}
+
+QPushButton:hover {
+    ; /* لون الخلفية عند التمرير */
+	background-color:white;
+    color: black; /* لون النص */
+}
+
+
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Facebook</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Desktop/Icons/facebook.png</normaloff>../../Desktop/Icons/facebook.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="TwitButton">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>810</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: white; /* لون النص */
+    
+	
+	background-color:black;
+   
+    border-radius: 8px; /* تدوير الحواف (اختياري) */
+    padding: 5px; /* مسافة داخلية */
+}
+
+QPushButton:hover {
+    ; /* لون الخلفية عند التمرير */
+	background-color:white;
+    color: black; /* لون النص */
+}
+
+
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Twitter</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Desktop/Icons/icons8-twitter-50.png</normaloff>../../Desktop/Icons/icons8-twitter-50.png</iconset>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="InstaButton">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>810</y>
+     <width>81</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    color: white; /* لون النص */
+    
+	
+	background-color:black;
+   
+    border-radius: 8px; /* تدوير الحواف (اختياري) */
+    padding: 5px; /* مسافة داخلية */
+}
+
+QPushButton:hover {
+    ; /* لون الخلفية عند التمرير */
+	background-color:white;
+    color: black; /* لون النص */
+}
+
+
+
+
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Instagram</string>
+   </property>
+   <property name="icon">
+    <iconset>
+     <normaloff>../../Desktop/Icons/icons8-instagram-logo-64.png</normaloff>../../Desktop/Icons/icons8-instagram-logo-64.png</iconset>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>-10</x>
+     <y>-40</y>
+     <width>391</width>
+     <height>501</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Desktop/Screenshots/one.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_19">
+   <property name="geometry">
+    <rect>
+     <x>330</x>
+     <y>410</y>
+     <width>401</width>
+     <height>561</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:black;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Desktop/Screenshots/‏‏one - نسخة.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>-20</x>
+     <y>-10</y>
+     <width>921</width>
+     <height>1001</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(0, 0, 0);</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>220</y>
+     <width>141</width>
+     <height>101</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: none;</string>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>../../Desktop/Screenshots/لقطة الشاشة 2025-01-29 174605.png</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label_20</zorder>
+  <zorder>label</zorder>
+  <zorder>label_19</zorder>
+  <zorder>label_3</zorder>
+  <zorder>label_4</zorder>
+  <zorder>Username</zorder>
+  <zorder>Password</zorder>
+  <zorder>User</zorder>
+  <zorder>Pass</zorder>
+  <zorder>LoginButton</zorder>
+  <zorder>SignupButton</zorder>
+  <zorder>label_6</zorder>
+  <zorder>FaceButton</zorder>
+  <zorder>TwitButton</zorder>
+  <zorder>InstaButton</zorder>
+  <zorder>label_2</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

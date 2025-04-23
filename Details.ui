@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>toShare</class>
+ <widget class="QWidget" name="toShare">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>243</width>
+    <height>416</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: qlineargradient(spread:pad, x1:0.147773, y1:1, x2:0.147728, y2:0.159, stop:0 rgba(0, 0, 0, 0), stop:0.1875 rgba(0, 0, 0, 146), stop:0.403409 rgba(50, 50, 50, 171), stop:0.5625 rgba(0, 0, 0, 200), stop:0.818182 rgba(0, 0, 0, 255), stop:0.9375 rgba(0, 0, 0, 255));</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>61</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+
+background-color:none;
+
+
+</string>
+   </property>
+   <property name="text">
+    <string>Price:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color:none;
+</string>
+   </property>
+   <property name="text">
+    <string>Your Art Name:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>230</y>
+     <width>81</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Script</family>
+     <pointsize>11</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);
+background-color:none;</string>
+   </property>
+   <property name="text">
+    <string>Category:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Price">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>90</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+border-radius:5px;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="ComboCategory">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>280</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">border-radius:8px;
+background-color:#ffffff;
+
+selection-background-color: rgb(0, 0, 0);
+
+selection-color: rgb(255, 255, 255);
+alternate-background-color: rgb(170, 170, 255);
+
+font: 75 8pt &quot;Segoe Print&quot;;
+
+color: rgb(170, 85, 127);</string>
+   </property>
+   <item>
+    <property name="text">
+     <string/>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Oil Pencils</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Watercolors</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Pencils</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Photography Designing</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Acliric</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Colored pencils</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Charcoal pencils</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Abstract art</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLineEdit" name="ArtName">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>190</y>
+     <width>171</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <pointsize>10</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: #000000;
+background-color: rgb(255, 255, 255);
+border-radius:5px;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="ChoosePhoto">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>330</y>
+     <width>101</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Segoe Print</family>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+border-radius:3px;</string>
+   </property>
+   <property name="text">
+    <string>Add Photo</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
